@@ -3,7 +3,7 @@ import pdfplumber
 import pyttsx3
 import tkinter as tk
 from tkinter import filedialog, messagebox
-import 
+import sys
 
 def extract_text_pypdf2(pdf_path):
     text = ""
